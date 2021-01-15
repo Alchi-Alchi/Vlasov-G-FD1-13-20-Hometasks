@@ -1,0 +1,16 @@
+#a1 {
+color: blue;
+}
+#a2 {
+color: coral; 
+} 
+#a3 {
+color: #666; 
+} 
+#av {
+color: coral;
+} 
+.delline{
+text-decoration: none;
+display:inline-block
+}

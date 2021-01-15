@@ -1,0 +1,43 @@
+h1 {
+color: coral; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#ttd{
+background-color: darkgreen; color:  white;
+}
+body {
+padding-right: 67%;
+}
+td{
+padding: 5px; text-align: center; font-weight: bold; border: 1px solid grey;
+}
+b{
+color: crimson; font-size: 24pt;
+}
+em{
+background: darkgreen; color: white;
+}
+h2{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: coral;
+}
+#h21{
+color:mediumblue; font-weight: bold;
+}
+span{
+font-weight:bold
+}
+#ol1{
+color:dimgrey;
+}
+#ol2{
+color:red;
+}
+#ol3{
+color:darkgreen
+}
+#td1{
+color: coral; border: 1px solid grey;
+}
+table{
+border: 1px solid grey; width: 80%; 
+}
+
