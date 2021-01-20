@@ -1,0 +1,9 @@
+table {
+border-spacing: 0;
+}
+tr:nth-child(2n) {
+background-color: #6495ED;	
+}
+td:nth-child(2n+3) {
+background-color: #F0E68C;	
+}
