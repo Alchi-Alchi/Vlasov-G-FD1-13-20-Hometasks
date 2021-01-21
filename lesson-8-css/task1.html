@@ -10,24 +10,25 @@
     <fieldset>
         <legend>Personal information</legend>
         <label for="name">First name:</label><br>
-        <input type="text"><br>
+        <input type="text" value="Mickey" style="margin: 0px 0px 20px;"><br>
+        <style> </style>
         <label for="name">Last name:</label><br>
-        <input type="text"><br>
+        <input type="text" value="Mouse" style="margin: 0px 0px 20px;"><br>
         <label for="name">Self-presentation:</label><br>
-        <input type="text">
+        <textarea name="Self-presentation:" id="123" cols="30" rows="10">The cat was playing in the garden.</textarea>
     </fieldset>
     <fieldset>
         <legend>Car info (the brand):</legend>
         <select name="Volvo" id="0">
-         <option value="">Volvo</option>  
-         <option value="">Saab</option>
-         <option value="">Fiat</option>
-         <option value="">Audi</option>
+         <option value="a">Volvo</option>  
+         <option value="b">Saab</option>
+         <option value="c">Fiat</option>
+         <option value="d">Audi</option>
         </select>
     </fieldset>
     <fieldset>
         <legend>Choose one:</legend>
-        <input type="radio" name="1">
+        <input type="radio" name="1" checked>
         <label for="#">Male</label><br>
         <input type="radio" name="1">
         <label for="#">Female</label><br>
@@ -41,6 +42,8 @@
         <input type="checkbox">
         <label for="#">I have a car</label>
     </fieldset>
+    <input type="submit" value="Submit" style="margin: 20px 2px;">
+    <input type="submit" value="Cancel" style="margin: 20px 2px;">
 </form>
 </body>
 </html>
