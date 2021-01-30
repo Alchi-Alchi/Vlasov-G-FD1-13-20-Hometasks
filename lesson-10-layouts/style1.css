@@ -1,0 +1,48 @@
+div {
+  background: #EE8029;
+  color: white;
+  padding: 20px;
+  border: 2px;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+.orange {
+  width: 50%;
+  font-size: 30px;
+  font-weight: bold;
+}
+.white {
+  width: 97%;
+  background: white;
+  color: #35495A;
+  font-size: 30px;
+  font-weight: bold;
+  box-sizing: content-box;
+}
+.b1{
+  width: 90%;
+  background: #EDF5FD;
+  color: #C2C8D0;
+}
+.b2{
+  width: 90%;
+  background: #F5F5F6;
+  color: #C2C8D0;
+}
+.b3 {
+  width: 90%;
+  background: #EDF5FD;
+  color: #C2C8D0;
+}
+.b4 {
+  width: 90%;
+  background: #F5F5F6;
+  color: #C2C8D0;
+}
+
+.button {
+  background: #EE8029;
+  color: white;
+  padding: 10px 20px;
+  box-shadow: 0px 0px 3px #35495A;
+}
