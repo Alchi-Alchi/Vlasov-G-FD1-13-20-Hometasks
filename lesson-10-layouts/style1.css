@@ -1,0 +1,109 @@
+body {
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.orange, .white {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.orange {
+  background: #EE8029;
+  border-radius: 5px;
+  color: white;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+  width: 295px;
+  height: 465px;
+  font-size: 20px;
+}
+
+.white {
+  width: 100%;
+  height: 95%;
+  padding-left: 15px;
+  padding-top: 25px;
+  background: white;
+  color: #35495A;
+  font-size: 20px;
+  text-align: center;
+}
+
+.b1, .b2, .b3, .b4 {
+  width: 88%;
+  padding: 8px;
+  font-size: 15px;
+  font-weight: normal;
+  text-align: justify;
+  color: #C2C8D0;
+  margin: 1px;
+}
+
+.b1, .b3 {
+  background: #EDF5FD;
+}
+
+.b2, .b4 {
+  background: #F5F5F6;
+}
+
+span {
+  font-size: 80px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 1.5rem 0;
+}
+
+.button {
+  margin-right: 17px;
+  background: #EE8029;
+  color: white;
+  padding: 10px 75px;
+  border-color:  #EE8029;
+  border-radius: 5px;
+  box-shadow: 0 3px  #865127;
+}
+
+.b1:hover, .b2:hover, .b3:hover, .b4:hover {
+  font-weight: bold;
+}
+
+button:hover {
+  background: #f37006;
+  box-shadow: 0 0 0 0  #865127;
+}
+
+img {
+  padding-right: 7px;
+}
+
+.price {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 6px;
+  padding-right: 40px;
+}
+
+.price sup, .price sub {
+  position: absolute;
+}
+
+sup{
+  top: 15px;
+  left: 55px;
+  font-size: 20px;
+}
+
+sub {
+  top: 65px;
+  right: 45px;
+}
