@@ -1,15 +1,26 @@
 body {
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
   font-family: 'Open Sans', Arial, sans-serif;
+}
+
+div {
   display: flex;
 }
 
+h1 {
+  text-align: center;
+  color: #35495A;
+}
 
 .orange-card, .white, .blue-card, .green-card {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   font-weight: bold;
+}
+
+.orange-card, .blue-card, .green-card {
+  margin-top: 40px;
 }
 
 .orange-card {
@@ -137,7 +148,7 @@ li:nth-child(odd) {
   position: absolute;
   z-index: 1;
   left: 470px;
-  top: 20px;
+  top: 90px;
 
 }
 
@@ -164,5 +175,5 @@ li:nth-child(odd) {
   position: absolute;
   z-index: 1;
   right: 540px;
-  top: 20px;
+  top: 90px;
 }
