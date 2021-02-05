@@ -10,7 +10,7 @@ span {
 h1 {
   text-align: center;
   color: #2D70A8;
-  margin: 50px;
+  margin: 40px;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 36px;
   font-weight: 100;
@@ -18,7 +18,6 @@ h1 {
 
  div {
    display: inline-block;
-   padding-left: 300px;
  }
 
 .u1, .u2 {
@@ -28,6 +27,7 @@ h1 {
   position: relative;
   padding: 15px;
   margin-left: 2rem;
+  margin-right: 2.5rem;
   float: right;
 }
 
@@ -61,4 +61,8 @@ img {
 
  i {
    padding-left: 160px;
+ }
+ 
+ .main {
+   padding-left: 430px;
  }
