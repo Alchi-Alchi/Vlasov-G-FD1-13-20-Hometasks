@@ -1,0 +1,90 @@
+body {
+  background-image: url("../images/plans-background.jpg")
+}
+
+.module-1 {
+  border: 3px solid #876E6A;
+  border-left: none;
+  background: #B1B0AE;
+  width: 80%;
+  opacity: 0.8;
+  margin-top: 20px;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.p1 {
+  font-weight: bold;
+  padding-left: 20px;
+  margin-top: 40px;
+  font-size: 24px;
+}
+
+.p2 {
+  color: #34302F;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.p3 {
+  border: 1px solid black;
+  padding: 10px;
+  color: #A9A9A9;
+  width: 65%;
+  background: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  margin: 1rem;
+  margin-bottom: 4%;
+}
+
+.recommended {
+  background: #D7402D;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid #D7402D;
+  padding: 10px;
+  opacity: 1;
+  width: 9%;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+}
+
+.module-2 {
+  border: 3px solid #876E6A;
+  border-right: none;
+  background: #B1B0AE;
+  width: 80%;
+  opacity: 0.8;
+  margin-left: 20%;
+  margin-bottom: 3rem;
+  padding-right: 20px;
+}
+
+ .module-2 .p3, .module-2 .p2, .module-2 .p1 {
+  text-align: right;
+}
+
+.module-2 .p3 {
+  margin-left: 35%;
+}
+
+.module-3 {
+  border: 3px solid #876E6A;
+  border-left: none;
+  background: #93726D;
+  width: 80%;
+  opacity: 0.8;
+}
+
+.module-3 .p1 {
+  color: white;
+}
+
+.module-3 .p2 {
+  color: #A9A9A9;
+}
+
+/* Белые плашки оставлены прозрачными, поскольку если делать их отдельным слоем, они расползаются при изменении размеров окна */

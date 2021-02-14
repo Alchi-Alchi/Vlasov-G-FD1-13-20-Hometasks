@@ -1,0 +1,58 @@
+.customer-1, .customer-2 {
+  width: 40%;
+  height: 30%;
+}
+
+.customer-1 {
+  margin-left: 1%;
+}
+
+.block-1 {
+  margin-top: 5rem;
+}
+
+h3 {
+  color: #D2524A;
+  font-size: 24px;
+  margin: auto;
+}
+
+.block-1 h3 {
+  text-align: right;
+}
+
+span {
+  color: #E6E6E6;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: right;
+}
+
+.text-1{
+  text-align: right;
+  margin-top: 10rem;
+  width: 20%;
+  float: right;
+  margin-right: 35%;
+}
+
+.customer-2 {
+  margin-left: 5%;
+}
+
+.text-2{
+  text-align: left;
+  margin-top: 10rem;
+  width: 20%;
+  float: left;
+  margin-left: 5%;
+}
+
+.block-2 {
+  margin-top: 1rem;
+  margin-bottom: 1%;
+}
+
+.block-2 h3 {
+  text-align: left;
+}
