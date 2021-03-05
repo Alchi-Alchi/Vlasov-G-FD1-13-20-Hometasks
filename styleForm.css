@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.signup-block {
+  padding: 1rem;
+  margin: 1rem 0;
+  background: rgb(65, 100, 135);
+}
+
+.signup-block__form__label {
+  font-size: 18px;
+  color: white;
+}
+
+.signup-block__form__input {
+  padding: 0.5rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.signup-block__form__button {
+  padding: 1rem;
+  border: none;
+  font-size: 18px;
+  background: rgb(124, 29, 3);
+  color: white;
+}
+
+.signup-block__form__button:hover {
+  background: rgb(168, 16, 16);
+}
