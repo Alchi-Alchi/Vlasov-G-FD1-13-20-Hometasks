@@ -6,13 +6,21 @@
     <link rel="stylesheet" href="styleForm.css">
 </head>
 <body>
-    <div class="signup-block">
-        <form action="" class="signup-block__form">
-            <label for="phone" class="signup-block__form__label">Оставьте свои данные и мы свяжемся с вами</label>
-            <input type="text" placeholder="Имя" class="signup-block__form__input">
-            <input type="text" placeholder="Телефон" class="signup-block__form__input">
-            <button class="signup-block__form__button">Перезвоните мне</button>
-        </form>
+    <div class="signup">
+        <div class="signup__header">
+            <p class="header__title">Оставьте свои данные и мы свяжемся с вами</p>
+            <button class="header__close">x</button>
+        </div>
+        <div class="signup__content">
+            <label class="text-field content__field">Имя</label>
+            <input type="text" placeholder="Имя" class="text-field__input">
+            <label class="text-field content__field">Телефон</label>
+            <input type="text" placeholder="+375 (**) ***-**-**" class="text-field__input">
+        </div>
+        <div class="signup__buttons">
+            <button class="agreement_button button">Перезвоните мне</button>
+            <button class="cancel_button button">Спасибо не надо</button>
+        </div>
     </div>
 </body>
 </html>

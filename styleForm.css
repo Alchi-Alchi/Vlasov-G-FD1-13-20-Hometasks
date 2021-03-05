@@ -2,32 +2,64 @@
   box-sizing: border-box;
 }
 
-.signup-block {
-  padding: 1rem;
-  margin: 1rem 0;
-  background: rgb(65, 100, 135);
-}
-
-.signup-block__form__label {
-  font-size: 18px;
-  color: white;
-}
-
-.signup-block__form__input {
-  padding: 0.5rem;
-  margin: 1rem;
-  border: none;
+.signup {
+  max-width: 400px;
+  padding: 18px;
   border-radius: 10px;
+  background-color: rgb(50, 77, 128);
 }
 
-.signup-block__form__button {
-  padding: 1rem;
-  border: none;
+.signup__header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.header__title {
   font-size: 18px;
-  background: rgb(124, 29, 3);
+  font-weight: bold;
   color: white;
 }
 
-.signup-block__form__button:hover {
-  background: rgb(168, 16, 16);
+.header__close {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.signup__content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.text-field {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.content__field {
+  margin-top: 10px;
+}
+
+.signup__buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 16px;
+}
+
+.button {
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
+
+.agreement_button {
+  background-color: green;
+}
+
+.cancel_button {
+  background-color: red;
 }
