@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  display: inline;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a:not(:first-child), nav ul .pages {
+  padding-left: 20px;
+}
+
+nav ul .pages {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  color: #A13AD1;
+}
+
+.nav a {
+  display: inline;
+  color: #A13AD1;
+}
+
+.pages li a {
+  padding: 5px 10px;
+  border: 1px lightgrey;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.pages li a:hover {
+  color: white;
+  background-color: #A13AD1;
+}
+
+.none {
+  border: none !important;
+  background-color: white !important;
+  color: #A13AD1 !important;
+}
+
+.selected {
+  color: white !important;
+  background-color: #A13AD1;
+}
