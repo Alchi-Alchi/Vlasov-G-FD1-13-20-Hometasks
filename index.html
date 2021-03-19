@@ -2,44 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>JS</title>
+    <title>task</title>
+    <link rel="stylesheet" href="styleForm.css">
 </head>
-<script>
-  'use strict';
-  function fuddyDuddy (a, b) {
-    var a = prompt ('Введите начальное число');
-    var b = prompt ('Введите конечное число');
-    for (var i = a; i <= b; i++) {
-      if (i % 5 === 0 && i % 3 === 0) {
-      console.log(i + ' Fuddy-Duddy');
-      continue;
-      }
-      if (i % 3 === 0) {
-        console.log(i + ' Fuddy');
-        continue;
-      }
-      if (i % 5 === 0) {
-        console.log(i + ' Duddy');
-        continue;
-      }
-      console.log(i);
-      }
-    }
-</script>
-<script>
-  'use strict';
-  function power (x, n) {
-    var x = prompt ('Введите число');
-    var n = prompt ('Введите степень');
-    var result = x;
-    for (var i = 1; i < n; i++) {
-      result = result * x;
-    }
-      console.log(result);
-    }
-</script>
 <body>
-  <button onclick = "fuddyDuddy ()">fuddyDuddy</button> <br> <hr>
-  <button onclick="power ()">pow</button>
+    <div class="signup">
+        <div class="signup__header">
+            <p class="header__title">Оставьте свои данные и мы свяжемся с вами</p>
+            <button class="header__close">x</button>
+        </div>
+        <div class="signup__content">
+            <label class="text-field content__field">Имя</label>
+            <input type="text" placeholder="Имя" class="text-field__input">
+            <label class="text-field content__field">Телефон</label>
+            <input type="text" placeholder="+375 (**) ***-**-**" class="text-field__input">
+        </div>
+        <div class="signup__buttons">
+            <button class="agreement_button button">Перезвоните мне</button>
+            <button class="cancel_button button">Спасибо не надо</button>
+        </div>
+    </div>
 </body>
 </html>
